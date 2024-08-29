@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/83a52b55-da3b-4dc6-ab0f-d20a5f4ef7c1)<p>
+<p>
   <img src="https://eu01.edcwb.com/educanews/interface/images/noticies/21345-4d886d43fa244e7c8aa987eb14bb24a0.jpg">
 </p>
 
@@ -8,6 +8,13 @@
 ## Descripción
 
 Este proyecto se centra en la implementación de un traductor multilingüe utilizando los servicios de Azure AI. Con este traductor, puedes traducir textos entre múltiples idiomas de manera eficiente y precisa, aprovechando la tecnología avanzada de procesamiento de lenguaje natural de Azure. Es ideal para aplicaciones que requieren traducción en tiempo real, interfaces de usuario multilingües, o cualquier solución que necesite romper las barreras del idioma.
+
+
+## Algunos Enlaces que podrian ayudar a comprender mejor su elaboracion 🧐
+
+- Video de Como Hacerlo en Postman => [Video de Postman](https://www.youtube.com/watch?v=a-JJrILw73Y)
+- Uso del Endpoint => [Como usarlo?](https://learn.microsoft.com/es-es/azure/ai-services/translator/reference/rest-api-guide?WT.mc_id=Portal-Microsoft_Azure_ProjectOxford)
+- Como Integrarlo con Postman? => [Microsoft Guia](https://learn.microsoft.com/es-es/azure/ai-services/translator/quickstart-text-rest-api?tabs=csharp)
 
 ## Requisitos  <img src="https://media.tenor.com/REoBdf2ztLEAAAAj/check-mark-good.gif" alt="Crear un nuevo recurso" width="35" style="border: 2px solid #FF5733;">
 
@@ -85,7 +92,7 @@ Primero Crearemos unos request De tipo GET para que nos muestre los tipos de idi
 
 ### Ahora para Traducir un texto  <img src="https://play-lh.googleusercontent.com/wjzioNo8WoOFXXQbW2QkhUP8olp6O6_SMOtaGma1JUNswu8E81PY_q0a8CtxxWwRq-g=w240-h480-rw" alt="Crear un nuevo recurso" width="28" style="border: 2px solid #FF5733;"> 
 
-## ¿Que vamos a modificar?
+## ¿Que vamos a modificar? <img src="https://media.tenor.com/Obm7FIMrbVcAAAAj/tonton-chick.gif" alt="Crear un nuevo recurso" width="35" style="border: 2px solid #FF5733;"> 
 
 ### Headers
 Agregaremos lo siguiente
@@ -114,8 +121,8 @@ En este punto colocaremos la region que sleccionamos al momento de crear nuestro
 ![image](https://github.com/user-attachments/assets/7fb7f16a-28ef-4ed2-b962-23ff8751a139)
 
 
+###  Por ultimo deberia de visualizarce de la Siguiente Manera <img src="https://png.pngtree.com/png-clipart/20230102/original/pngtree-4-dragon-ball-icon-vector-drgon-illustrtion-png-image_8856270.png" alt="Crear un nuevo recurso" width="28" style="border: 2px solid #FF5733;"> 
 
-###  Por ultimo deberia de visualizarce de la Siguiente Manera
 
 ![image](https://github.com/user-attachments/assets/53e5b94b-8fda-4d4d-9cf0-213adbca37d6)
 
@@ -124,8 +131,8 @@ En este punto colocaremos la region que sleccionamos al momento de crear nuestro
 
 ![image](https://github.com/user-attachments/assets/21e4e87b-61dc-40e3-868a-b65f14440bff)
 
+Dentro de ello podriamos colocar los siguiente como ejemplo <img src="https://losanimesdemagrat.files.wordpress.com/2012/12/21.gif?w=625" alt="Crear un nuevo recurso" width="50" style="border: 2px solid #FF5733;"> 
 
-Dentro de ello podriamos colocar los siguiente como ejemplo
 ```json
 [
     {
@@ -133,7 +140,8 @@ Dentro de ello podriamos colocar los siguiente como ejemplo
     }
 ]
 ```
-
-El cual se visualizara de la siguiente Manera
+El cual se visualizara de la siguiente Manera <img src="https://i.gifer.com/origin/6b/6b82cef3af5c921cd252eba8ec436150_w200.gif" alt="Crear un nuevo recurso" width="50" style="border: 2px solid #FF5733;"> 
 ![image](https://github.com/user-attachments/assets/05cf76d9-0cd1-4d96-909f-463c0dccb9ba)
+
+
 
