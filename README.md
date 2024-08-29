@@ -1,4 +1,4 @@
-<p>
+![image](https://github.com/user-attachments/assets/83a52b55-da3b-4dc6-ab0f-d20a5f4ef7c1)<p>
   <img src="https://eu01.edcwb.com/educanews/interface/images/noticies/21345-4d886d43fa244e7c8aa987eb14bb24a0.jpg">
 </p>
 
@@ -65,3 +65,75 @@ Una vez que se ha creado no deberia de salir el siguiente mensaje. Ahora simplem
 Por ultimos nos aparecerea esto en el cual ya podemos probar el traducto dentro de esas casillas el cual tambien no brinda como JSON <img src="https://images.emojiterra.com/google/noto-emoji/animated-emoji/1f60a.gif" alt="Crear un nuevo recurso" width="35" style="border: 2px solid #FF5733;">
 
 ![image](https://github.com/user-attachments/assets/0aead70d-8847-45c9-8775-18c95bffeefb)
+
+# Como Usar en Postman <img src="https://cdn.iconscout.com/icon/free/png-256/free-postman-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-2945092.png?f=webp" alt="Crear un nuevo recurso" width="35" style="border: 2px solid #FF5733;">
+
+## Requisitos  
+ 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Eo_circle_green_white_checkmark.svg/2048px-Eo_circle_green_white_checkmark.svg.png" alt="Crear un nuevo recurso" width="20" style="border: 2px solid #FF5733;"> Tener Instalado Postman en Tu equipo
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Eo_circle_green_white_checkmark.svg/2048px-Eo_circle_green_white_checkmark.svg.png" alt="Crear un nuevo recurso" width="20" style="border: 2px solid #FF5733;">O usar postman Web =>   [Enlace Postman](https://web.postman.co/workspace)
+
+## PASOS PARA REALIZARLO EN POSTMAN
+
+Primero Crearemos unos request De tipo GET para que nos muestre los tipos de idiomas
+
+- Colocamos nuestra api y le damos clic en SEND
+- Nos mostrara una lista extensa de todos los tipos de idiomas
+
+![image](https://github.com/user-attachments/assets/655f8a5a-158f-4efa-9f43-cc5a03517af5)
+
+### Ahora para Traducir un texto  <img src="https://play-lh.googleusercontent.com/wjzioNo8WoOFXXQbW2QkhUP8olp6O6_SMOtaGma1JUNswu8E81PY_q0a8CtxxWwRq-g=w240-h480-rw" alt="Crear un nuevo recurso" width="28" style="border: 2px solid #FF5733;"> 
+
+## ¿Que vamos a modificar?
+
+### Headers
+Agregaremos lo siguiente
+
+- Ocp-Apim-Subscription-Key (Requerido)
+- Ocp-Apim-Subscription-Region (Requerido)
+- Content-Type    (Requerido)
+- Content-Length	(Opcional)
+       
+### 1.- Ocp-Apim-Subscription-Key
+
+Para este colocaremos la contraseña o clave que no brinda Azure. Para obtenerlo en el menu seleccionamos claves y punto de conexion
+Nos brinda dos claves podemos usar el que preferimos
+
+![image](https://github.com/user-attachments/assets/53568c5c-19c5-4618-9e83-c473818658e6)
+
+En postman deberia visualizarse de la siguiente manera
+
+![image](https://github.com/user-attachments/assets/7eaa68de-25ea-4b94-b071-b856eeed2174)
+
+
+### 2.- Ocp-Apim-Subscription-Region
+
+En este punto colocaremos la region que sleccionamos al momento de crear nuestro traductor. de igual manera este dato se encuentra debajo de las claves
+
+![image](https://github.com/user-attachments/assets/7fb7f16a-28ef-4ed2-b962-23ff8751a139)
+
+
+
+###  Por ultimo deberia de visualizarce de la Siguiente Manera
+
+![image](https://github.com/user-attachments/assets/53e5b94b-8fda-4d4d-9cf0-213adbca37d6)
+
+
+### Ahora para poder traducir un texto tenemos que dirigirnos a BODY y selecciona Raw
+
+![image](https://github.com/user-attachments/assets/21e4e87b-61dc-40e3-868a-b65f14440bff)
+
+
+Dentro de ello podriamos colocar los siguiente como ejemplo
+```json
+[
+    {
+        "text":"Hola Como estas"
+    }
+]
+```
+
+El cual se visualizara de la siguiente Manera
+![image](https://github.com/user-attachments/assets/05cf76d9-0cd1-4d96-909f-463c0dccb9ba)
+
